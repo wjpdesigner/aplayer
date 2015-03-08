@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>A.Player - A simple Video.js player</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Video.js-->
+<link href="https://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
+<script src="https://vjs.zencdn.net/4.12/video.js"></script>
+<!--APlayer.css-->
+<link href="aplayer.css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="header">
+		<h1>A.Player</h1>
+		<p>A simple Video.js player with custom minimalist interface.</p>
+		<a href="https://github.com/wjpdesigner/aplayer" class="btn">Download on GitHub</a>
+	</div>
+	
+	<!--START myVideo"-->
+	<div class="video-container">
+		<video id="myVideo-1" class="video-js vjs-default-skin" controls preload="auto" poster="img/poster.jpg" >
+    		<source src="https://cdn.selz.com/plyr/1.0/movie.mp4" type="video/mp4">
+        	<source src="https://cdn.selz.com/plyr/1.0/movie.webm" type="video/webm">
+  		</video>
+	</div>
+	<!--END myVideo-->
+	
+	<p class="small"><br>Big Buck Bunny. More info can be found at <a href="http://peach.blender.org" target="blank">peach.blender.org</a>.</p>
+	
+	<div id="footer">
+		<p>Used by ...</p>
+		<a href="http://wjpdesigner.com" target="_blank" style="border: none;"><img src="img/logo.png" width="60"></a>
+	</div>
+
+	<!--APlayer.js-->
+	<script src="aplayer.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+    background: #fff;
+    text-align: center;
+    color: #6D797F;
+    font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+}
+
+img {
+	border: none;
+}
+
+h1 {
+	font-size: 4em;
+	font-weight: 600;
+	letter-spacing: -0.025em;
+	color: #01DFA5;
+	margin-top: 0;
+}
+
+p {
+	font-size: 1em;
+	font-weight:600;
+	margin-top: 0;
+	line-height: 1.5;
+}
+
+.small {
+	padding: 0 20px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #01DFA5;
+	border-bottom: 1px solid currentColor;
+	transition: all .3s ease;
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 30px;
+	background: #01DFA5;
+	border: 0;
+	color: white;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-weight: 600;
+	border-radius: 3px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+a.btn:link, a.btn:visited, a.btn:hover{
+	color: white;
+	text-decoration: none;
+	border: none;
+}
+
+.btn:hover {
+	background: #04B486;
+}
+
+#header {
+	padding: 60px 20px 80px;
+}
+
+#header p {
+	margin-bottom: 20px;
+}
+
+/*--Video.js--*/
+.video-container {
+	max-width: 1200px;
+	margin: 0px auto;
+}
+video {
+	width: 100%;
+	height: auto;
+}
+
+#footer {
+	font-size: 14px;
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+
+/*--Media Query--*/
+@media (max-width: 757px) {
+	#header {
+		padding: 20px 20px 40px;
+	}
+}
+
+@media (max-width: 374px) {
+	h1 {
+		font-size: 3em;
+	}
+}
