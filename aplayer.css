@@ -46,6 +46,17 @@ video {
 
 .video-js.vjs-ended .vjs-poster {
   display: block;
+  z-index: 1;
+}
+
+.video-js.vjs-ended .vjs-big-play-button {
+	display: block;
+}
+
+.vjs-default-skin .vjs-loading-spinner:before {
+  content: "\e01f";
+  text-shadow: none;
+  color: #333;
 }
 
 /*--You can remove everything after this comment--*/
