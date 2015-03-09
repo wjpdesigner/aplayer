@@ -19,9 +19,9 @@ video {
 /*--You can remove everything after this comment--*/
 body {
 	font-family: 'Open Sans', sans-serif;
-    background: #fff;
+    background: black;
     text-align: center;
-    color: #6D797F;
+    color: white;
     font-size: 16px;
     margin: 0;
 	-webkit-font-smoothing: antialiased;
@@ -68,7 +68,7 @@ a:hover {
 	padding: 10px 30px;
 	background: #01DFA5;
 	border: 0;
-	color: white;
+	color: black;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 	font-weight: 600;
@@ -80,7 +80,7 @@ a:hover {
 }
 
 a.btn:link, a.btn:visited, a.btn:hover{
-	color: white;
+	color: black;
 	text-decoration: none;
 	border: none;
 }
