@@ -3,7 +3,7 @@ A simple responsive Video.js player with custom minimalist interface.
 
 [Checkout the demo](http://wjpdesigner.com/aplayer/)
 
-[![Image of APlayer](http://wjpdesigner.com/aplayer/screenshot.jpg?1)](http://wjpdesigner.com/aplayer/)
+[![Image of APlayer](http://wjpdesigner.com/aplayer/screenshot2.jpg?1)](http://wjpdesigner.com/aplayer/)
 
 ### Feature:
 - Fully Responsive
