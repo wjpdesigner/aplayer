@@ -1,11 +1,29 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
 
+/*--Start Video.js CSS here--*/
+.video-container {
+	max-width: 1200px;
+	margin: 0px auto;
+}
+video {
+	width: 100%;
+	height: auto;
+}
+
+#footer {
+	font-size: 14px;
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+
+/*--You can remove everything after this comment--*/
 body {
 	font-family: 'Open Sans', sans-serif;
     background: #fff;
     text-align: center;
     color: #6D797F;
     font-size: 16px;
+    margin: 0;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -19,6 +37,7 @@ h1 {
 	letter-spacing: -0.025em;
 	color: #01DFA5;
 	margin: 0;
+	margin-top: -10px;
 }
 
 p {
@@ -29,13 +48,13 @@ p {
 }
 
 .small {
+	font-size: 14px;
 	padding: 0 20px;
 }
 
 a:link, a:visited {
 	text-decoration: none;
 	color: #01DFA5;
-	border-bottom: 1px solid currentColor;
 	transition: all .3s ease;
 }
 
@@ -76,22 +95,6 @@ a.btn:link, a.btn:visited, a.btn:hover{
 
 #header p {
 	margin-bottom: 20px;
-}
-
-/*--Video.js--*/
-.video-container {
-	max-width: 1200px;
-	margin: 0px auto;
-}
-video {
-	width: 100%;
-	height: auto;
-}
-
-#footer {
-	font-size: 14px;
-	padding-top: 60px;
-	padding-bottom: 20px;
 }
 
 /*--Media Query--*/
