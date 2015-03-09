@@ -35,7 +35,7 @@ And to have more than one video make sure the `<video id="XXXX">` tag `id` are d
 ```html
 <!--START myVideo"-->
 <div class="video-container">
-	<video id="myVideo-1" class="video-js vjs-default-skin" controls preload="auto" poster="img/poster.jpg" >
+	<video id="myVideo-1" class="video-js vjs-default-skin vjs-big-play-centered" poster="img/poster.jpg">
     	<source src="https://cdn.selz.com/plyr/1.0/movie.mp4" type="video/mp4">
         <source src="https://cdn.selz.com/plyr/1.0/movie.webm" type="video/webm">
   	</video>
