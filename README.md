@@ -13,7 +13,7 @@ A simple responsive Video.js player with custom minimalist interface.
 
 ### Implementation:
 #### 1.Getting Started
-Include the Video.js and aplayer.css into the `<head>` section.
+Include the video.js and aplayer.css into the `<head>` section.
 ```html
 <!--Video.js-->
 <link href="https://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
@@ -44,11 +44,11 @@ And to have more than one video make sure the `<video id="XXXX">` tag `id` are d
 ```
 #### 3.Config your video player aspect ratio
 In the aplayer.js you can set-up the aspect ratio by putting the original video size `height/width`.
-```html
+```javascript
 var aspectRatio = 715/1272; //change the aspect ratio as your desire
 ```
 Again if you have more than one video you have to duplicate/copy the whole thing and just change the `id` ex.myVideo-1 and the size `height/width`.
-```html
+```javascript
 videojs('myVideo-1').ready(function(){	//be careful with the id
 	var myPlayer = this, id = myPlayer.id();
 	var aspectRatio = 715/1272; //change the aspect ratio as your desire
