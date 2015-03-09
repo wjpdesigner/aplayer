@@ -1,3 +1,17 @@
+var player = videojs('myVideo-1', {
+	"controls": true,
+	"autoplay": false,
+	"preload": "auto",
+	controlBar: {
+		volumeControl: false,
+        progressControl: {
+            seekBar: {
+              seekHandle: false
+            }
+        }
+    }
+});
+		
 videojs.autoSetup();
 
 videojs('myVideo-1').ready(function(){

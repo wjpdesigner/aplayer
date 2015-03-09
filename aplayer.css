@@ -5,15 +5,40 @@
 	max-width: 1200px;
 	margin: 0px auto;
 }
+
 video {
 	width: 100%;
 	height: auto;
 }
 
-#footer {
-	font-size: 14px;
-	padding-top: 60px;
-	padding-bottom: 20px;
+/*--Basic Skin--*/
+.vjs-default-skin { color: #ffffff; }
+.vjs-default-skin .vjs-play-progress,
+.vjs-default-skin .vjs-volume-level { background-color: #ffffff }
+.vjs-default-skin .vjs-control-bar { background: #333 }
+.vjs-default-skin .vjs-slider { background: rgba(0,0,0,0.33) }
+.vjs-default-skin .vjs-control-bar { font-size: 120% }
+
+/*--Big Play Btn--*/
+.vjs-default-skin .vjs-big-play-button { 
+	background: rgba(51,51,51,.5);
+	border: none;
+	-webkit-box-shadow: 0 0 1em rgba(255,255,255,.0);
+  	-moz-box-shadow: 0 0 1em rgba(255,255,255,.0);
+  	box-shadow: 0 0 1em rgba(255,255,255,.0);
+}
+.vjs-default-skin:hover .vjs-big-play-button, .vjs-default-skin .vjs-big-play-button:focus {
+	background: rgba(51,51,51,1.0);
+	border: none;
+	-webkit-box-shadow: 0 0 1em rgba(255,255,255,.0);
+  	-moz-box-shadow: 0 0 1em rgba(255,255,255,.0);
+  	box-shadow: 0 0 1em rgba(255,255,255,.0);
+}
+.vjs-default-skin .vjs-big-play-button:before {
+	text-shadow: none;
+	font-size: 2em;
+	left: 3px;
+	line-height: 1.3em;
 }
 
 /*--You can remove everything after this comment--*/
@@ -95,6 +120,12 @@ a.btn:link, a.btn:visited, a.btn:hover{
 
 #header p {
 	margin-bottom: 20px;
+}
+
+#footer {
+	font-size: 14px;
+	padding-top: 60px;
+	padding-bottom: 20px;
 }
 
 /*--Media Query--*/
