@@ -11,6 +11,24 @@ var player = videojs('myVideo-1', {
         }
     }
 });
+
+var audio = videojs('myAudio-1', {
+	"controls": true,
+	"autoplay": false,
+	"preload": "auto",
+	controlBar: {
+		volumeControl: {
+			volumeBar: {
+				volumeHandle: false
+			}
+		},
+        progressControl: {
+            seekBar: {
+              seekHandle: false
+            }
+        }
+    }
+});
 		
 videojs.autoSetup();
 
