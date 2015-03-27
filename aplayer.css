@@ -24,14 +24,22 @@ video {
 
 /*--Big Play Btn--*/
 .vjs-default-skin .vjs-big-play-button { 
-	background: rgba(51,51,51,.5);
+	background: rgba(255,255,255,0.6);
 	border: none;
 	-webkit-box-shadow: 0 0 1em rgba(255,255,255,.0);
   	-moz-box-shadow: 0 0 1em rgba(255,255,255,.0);
   	box-shadow: 0 0 1em rgba(255,255,255,.0);
+  	width: 3em;
+	height: 3em;
+	-webkit-border-radius: 3em;
+	-moz-border-radius: 3em;
+	border-radius: 3em;
+}
+.vjs-default-skin.vjs-big-play-centered .vjs-big-play-button {
+	margin-left: -1.5em;
 }
 .vjs-default-skin:hover .vjs-big-play-button, .vjs-default-skin .vjs-big-play-button:focus {
-	background: rgba(51,51,51,1.0);
+	background: rgba(255,255,255,0.8);
 	border: none;
 	-webkit-box-shadow: 0 0 1em rgba(255,255,255,.0);
   	-moz-box-shadow: 0 0 1em rgba(255,255,255,.0);
@@ -40,8 +48,10 @@ video {
 .vjs-default-skin .vjs-big-play-button:before {
 	text-shadow: none;
 	font-size: 2em;
-	left: 3px;
+	left: 6px;
 	line-height: 1.3em;
+	color: #666666;
+    top: 7px;
 }
 
 .video-js.vjs-ended .vjs-poster {
